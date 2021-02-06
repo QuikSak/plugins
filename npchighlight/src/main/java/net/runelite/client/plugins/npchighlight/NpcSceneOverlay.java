@@ -203,6 +203,7 @@ public class NpcSceneOverlay extends Overlay
 				{
 					graphics.setColor(color);
 					graphics.draw(objectClickbox);
+					graphics.fill(objectClickbox);
 				}
 				break;
 			case THIN_OUTLINE:
